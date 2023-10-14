@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class AccountTest {
+class AccountTest {
     private static final double epsilon = 1e-6;
 
 
