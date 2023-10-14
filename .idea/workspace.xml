@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25121879-a1a2-438b-b5a4-6c25014852b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseFive/NumericInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseFive/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseFour/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseSix/RoutePlanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseThree/BinarySearchThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseThree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exerciseTwo/MergeNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exerciseFour/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exerciseFour/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exerciseFour/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +41,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.exampleOne" />

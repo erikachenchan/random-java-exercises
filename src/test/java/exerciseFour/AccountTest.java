@@ -7,18 +7,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class AccountTest {
-    private double epsilon = 1e-6;
+    private static final double epsilon = 1e-6;
 
 
     @Test
-    public void accountCannotHaveNegativeOverdraftLimit() {
+    void accountCannotHaveNegativeOverdraftLimit() {
         Account account = new Account(-20);
 
         assertEquals(0d, account.getOverdraftLimit(), epsilon);
     }
 
     @Test
-    public void depositWillNotAcceptNegativeNumbers() {
+    void depositWillNotAcceptNegativeNumbers() {
         Account account = new Account(100);
 
         boolean result = account.deposit(-50);
@@ -28,7 +28,7 @@ public class AccountTest {
     }
 
     @Test
-    public void withdrawWillNotAcceptNegativeNumbers() {
+    void withdrawWillNotAcceptNegativeNumbers() {
         Account account = new Account(100);
 
         boolean result = account.withdraw(-50);
@@ -38,7 +38,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountCannotOverstepOverdraftLimit() {
+    void accountCannotOverstepOverdraftLimit() {
         Account account = new Account(100);
 
         boolean result = account.withdraw(200);
@@ -48,7 +48,7 @@ public class AccountTest {
     }
 
     @Test
-    public void depositAddsCorrectAmount() {
+    void depositAddsCorrectAmount() {
         Account account = new Account(100);
         boolean result = account.deposit(50);
 
@@ -57,7 +57,7 @@ public class AccountTest {
     }
 
     @Test
-    public void withdrawSubtractsCorrectAmount() {
+    void withdrawSubtractsCorrectAmount() {
         Account account = new Account(100);
         account.deposit(150);
 
